@@ -57,9 +57,14 @@
 }
 
 .site-section {
+  background-color:  rgb(24, 23, 23);
+  color: #fff;
   padding: 7rem 0;
   @include media-breakpoint-down(md) {
     padding: 3rem 0;
+  }
+  h3{
+    color: #fff;
   }
 }
 
@@ -882,16 +887,16 @@
 }
 
 .trip-form {
-  padding: 40px 30px;
-  background: $white;
+  padding: 40px 30px; 
+  background-color: #fff;
+  color: #000;
   position: relative;
-  // transform: translateY(-50%);
   margin-top: -90px;
   box-shadow: 0 0 10px 0px rgba($black, .1);
   h3 {
     font-size: 20px;
     margin-bottom: 30px;
-    color: $black;
+    color: #000;
   }
 }
 
@@ -989,6 +994,7 @@
     background: $white;
     width: 90px;
     height: 90px;
+    color: #000;
     margin-bottom: 20px;
     position: relative;
     display: inline-block;

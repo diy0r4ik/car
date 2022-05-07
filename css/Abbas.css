@@ -397,11 +397,12 @@ body {
 
 /* footer */
 .footer {
+  height: 700px;
   display: flex;
 }
 .content-footer {
   background-color: #424242;
-  height: 774px;
+  height: 700px;
   width: 100%;
   padding: 40px 70px;
 }

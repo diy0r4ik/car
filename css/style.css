@@ -280,6 +280,7 @@ body {
   color: #364d59 !important;
   font-weight: 300;
   font-size: 1rem;
+  background-color: #181717;
 }
 
 ::-moz-selection {
@@ -1141,6 +1142,8 @@ h1, h2, h3, h4, h5,
 }
 
 .site-section {
+  background-color: #181717;
+  color: #fff;
   padding: 7rem 0;
 }
 
@@ -1148,6 +1151,10 @@ h1, h2, h3, h4, h5,
   .site-section {
     padding: 3rem 0;
   }
+}
+
+.site-section h3 {
+  color: #fff;
 }
 
 .block-heading-1 span {
@@ -2058,7 +2065,8 @@ h1, h2, h3, h4, h5,
 
 .trip-form {
   padding: 40px 30px;
-  background: #fff;
+  background-color: #fff;
+  color: #000;
   position: relative;
   margin-top: -90px;
   -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
@@ -2169,6 +2177,7 @@ h1, h2, h3, h4, h5,
   background: #fff;
   width: 90px;
   height: 90px;
+  color: #000;
   margin-bottom: 20px;
   position: relative;
   display: inline-block;
