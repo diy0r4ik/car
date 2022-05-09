@@ -2082,6 +2082,7 @@ h1, h2, h3, h4, h5,
 .item-1 .item-1-contents {
   padding: 20px;
   background: #fff;
+  color: #000;
 }
 
 .item-1 .item-1-contents h3 {
