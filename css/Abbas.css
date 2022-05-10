@@ -328,7 +328,6 @@ body {
   top: 50%;
   border-bottom: 100px solid transparent;
   border-top: 100px solid transparent;
-  border-right: 150px solid #0AF;
 }
 #arrow1 {
   -webkit-transition: border 0.2s linear;
@@ -347,7 +346,6 @@ body {
   color: #e20f2f;
   border-bottom: 100px solid transparent;
   border-top: 100px solid transparent;
-  border-left: 150px solid #0AF;
 }
 #arrow > span {
   -webkit-transition: margin 0.1s linear;
@@ -357,7 +355,7 @@ body {
   transition: margin 0.1s linear;
   font-family: "Open Sans", "Courier New", Courier, monospace;
   line-height: 0;
-  margin-left: 65px;
+  margin-left: -60px;
   margin-top: -1px;
   position: absolute;
   display: block;
@@ -365,10 +363,9 @@ body {
   height: 0;
 }
 #arrow:hover {
-  border-right-color: blue;
 }
 #arrow:hover > span {
-  margin-left: 75px;
+  margin-left: -50px;
 }
 #arrow1 > span {
   -webkit-transition: margin 0.1s linear;
@@ -378,7 +375,7 @@ body {
   transition: margin 0.1s linear;
   font-family: "Open Sans", "Courier New", Courier, monospace;
   line-height: 0;
-  margin-left: -125px;
+  margin-left: -15px;
   margin-top: -1px;
   position: absolute;
   z-index: 123;
@@ -387,10 +384,9 @@ body {
   /* height: 0; */
 }
 #arrow1:hover {
-  border-left-color:blue;
 }
 #arrow1:hover > span {
-  margin-left: -135px;
+  margin-left: -25px;
 }
 
 

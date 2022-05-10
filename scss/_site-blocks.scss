@@ -59,7 +59,8 @@
 .site-section {
   background-color:  rgb(24, 23, 23);
   color: #fff;
-  padding: 7rem 0;
+  // padding: 7rem 0;
+  margin-top: 80px;
   @include media-breakpoint-down(md) {
     padding: 3rem 0;
   }

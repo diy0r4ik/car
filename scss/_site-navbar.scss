@@ -202,7 +202,8 @@
 	right: 0;
 	z-index: 2000;
 	padding-top: 20px;
-	background: $white;
+	background: #000;
+	color: #fff;
 	height: calc(100vh);
 	
 	transform: translateX(110%);
@@ -276,7 +277,7 @@
 			padding: 10px 20px;
 			display: block;
 			position: relative;
-			color: $gray-900;
+			color: #fff;
 			&:hover {
 				color: $primary;
 			}
