@@ -806,6 +806,9 @@
 }
 
 .post-entry-1 {
+  img{
+    border-radius: 0px 0px 10px;
+  }
   .meta {
     color: #ccc;
   }
@@ -833,6 +836,8 @@
     }
     .post-entry-1-contents {
       padding-top: 4rem;
+    
+      
     }
 
   }
@@ -892,7 +897,7 @@
   background-color: #fff;
   color: #000;
   position: relative;
-  margin-top: -90px;
+  margin-top: -210px;
   box-shadow: 0 0 10px 0px rgba($black, .1);
   h3 {
     font-size: 20px;

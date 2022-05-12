@@ -1,18 +1,41 @@
-const hamburger_menu = document.querySelector(".hamburger-menu");
 
-const container = document.querySelector(".container1");
 
-hamburger_menu.addEventListener("click", () => {
-    container.classList.toggle("active");
-})
+// ABBAS CAROUSEL./
 
-let map;
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
+$(function(){
+  $('.carousel-item').eq(0).addClass('active');
+  var total = $('.carousel-item').length;
+  var current = 0;
+  $('#moveRight').on('click', function(){
+    var next=current;
+    current= current+1;
+    setSlide(next, current);
   });
-}
+  $('#moveLeft').on('click', function(){
+    var prev=current;
+    current = current- 1;
+    setSlide(prev, current);
+  });
+  function setSlide(prev, next){
+    var slide= current;
+    if(next>total-1){
+     slide=0;
+      current=0;
+    }
+    if(next<0){
+      slide=total - 1;
+      current=total - 1;
+    }
+           $('.carousel-item').eq(prev).removeClass('active');
+           $('.carousel-item').eq(slide).addClass('active');
+      setTimeout(function(){
 
-window.initMap = initMap;
+      },800);
+    
+
+    
+    console.log('current '+current);
+    console.log('prev '+prev);
+  }
+});
