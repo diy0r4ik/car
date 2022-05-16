@@ -634,6 +634,17 @@ body {
 #carousel-wrapper.anim-previous #image {
   animation: previous-image 0.65s 0.085s;
 }
+/* @media (max-width: 1060px) {
+   #carousel-wrapper { 
+    width: 1000px; margin: 0 auto;
+  } 
+  #carousel-wrapper #menu #current-option{
+    margin-left: 0;
+  }
+  #carousel-wrapper #image{
+    margin-left: 40px;
+  }
+} */
 
 @keyframes previous-text {
   50%, 55% {
@@ -708,6 +719,8 @@ body {
 
 
  /* DIYOR CAROUSEL */
+
+
 .shadow-effect {
     background: #fff;
     padding: 20px;
