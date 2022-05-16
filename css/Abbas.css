@@ -473,6 +473,8 @@ body {
   justify-content: center;
   overflow: hidden;
   margin-left: -500px;
+  flex-wrap: wrap;
+
 }
 #carousel-wrapper #menu {
   height: 500px;
@@ -634,18 +636,173 @@ body {
 #carousel-wrapper.anim-previous #image {
   animation: previous-image 0.65s 0.085s;
 }
-/* @media (max-width: 1060px) {
+/* @media (min-width: 1300px) {
+  #carousel-wrapper #menu #current-option { 
+    margin-left: 60px;
+ } */
+@media (min-width: 1060px) {
+  .feature-car-rent-box-1{
+    top: 80%;
+    margin-bottom: 50%;
+  }
    #carousel-wrapper { 
     width: 1000px; margin: 0 auto;
   } 
+  #carousel-wrapper #image{
+    margin-left: -150px;
+    width: 350px;
+    height: 350px;
+  }
   #carousel-wrapper #menu #current-option{
-    margin-left: 0;
+    margin-left: -65px;
+  }
+
+  #carousel-wrapper #menu #next-option{
+    margin-left: -740px;
+  }
+  #carousel-wrapper #menu #previous-option{
+    margin-left: -740px;
+  }
+}
+@media (max-width: 1500px) {
+  .feature-car-rent-box-1{
+    top: 80%;
+    margin-top: 50%;
+  }
+
+}
+@media (max-width: 992px) {
+  .feature-car-rent-box-1{
+    margin-top: 40%;
+  }
+  #carousel-wrapper #menu #current-option { 
+    margin-left: 460px;
+ }
+ #carousel-wrapper #menu #previous-option{
+  margin-left: 460px;
+}
+#carousel-wrapper #image{
+  width: 300px;
+  height: 300px;
+}
+
+.content-footer{
+  t
+}
+@media(max-width:992px){
+  #carousel-wrapper #menu #current-option #current-option-text1{
+    font-size: 2em;
+    line-height: 3rem;
+    width: 320px;
+    height: 100px;
+  }
+  #carousel-wrapper #menu #current-option #current-option-text2{
+    font-size: 1em;
+    line-height: 2rem;
+    width: 220px;
+    height: 100px;
   }
   #carousel-wrapper #image{
-    margin-left: 40px;
+    margin-left: 450px;
+    width: 250px;
+    height: 250px;
   }
-} */
-
+  #carousel-wrapper #menu #previous-option{
+    margin-left: -350px;
+  }
+  #carousel-wrapper #menu #next-option{
+    margin-left: -350px;
+  }
+}
+@media(max-width:700px){
+  #carousel-wrapper #menu #current-option #current-option-text1{
+    margin-left: 60px;
+    font-size: 2em;
+    line-height: 2rem;
+    margin-bottom: 55px;
+    width: 290px;
+    height: 50px;
+  }
+  #carousel-wrapper #menu #current-option #current-option-text2{
+    font-size: 1em;
+    line-height: 1rem;
+    width: 120px;
+    height: 30px;
+  }
+  #carousel-wrapper #image{
+    margin-left: 450px;
+    width: 200px;
+    height: 200px;
+  }
+  #carousel-wrapper #menu #previous-option{
+    margin-left: -350px;
+  }
+  #carousel-wrapper #menu #next-option{
+    margin-left: -350px;
+  }
+}
+@media(max-width:666px){
+  #carousel-wrapper #menu #current-option #current-option-text1{
+    margin-left: 60px;
+    
+    font-size: 1.5em;
+    line-height: 1.5rem;
+    width: 170px;
+    height: 50px;
+  }
+  #carousel-wrapper #menu #current-option #current-option-text2{
+    font-size: 1em;
+    line-height: 1rem;
+    width: 120px;
+    height: 30px;
+  }
+  #carousel-wrapper #image{
+    margin-left: 340px;
+    width: 150px;
+    height: 150px;
+  }
+  #carousel-wrapper #menu #previous-option{
+    margin-left: -685px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  #carousel-wrapper #menu #next-option{
+    margin-left: -685px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+@media(max-width:400px){
+  #carousel-wrapper #menu #current-option #current-option-text1{
+    margin-left: 60px;
+    
+    font-size: 1em;
+    line-height: 1rem;
+    width: 170px;
+    height: 50px;
+  }
+  #carousel-wrapper #menu #current-option #current-option-text2{
+    font-size: 0.7em;
+    line-height: 0.7rem;
+    width: 120px;
+    height: 30px;
+  }
+  #carousel-wrapper #image{
+    margin-left: 340px;
+    width: 150px;
+    height: 150px;
+  }
+  #carousel-wrapper #menu #previous-option{
+    margin-left: -685px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  #carousel-wrapper #menu #next-option{
+    margin-left: -685px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
 @keyframes previous-text {
   50%, 55% {
     transform: translate(0%, 390px);

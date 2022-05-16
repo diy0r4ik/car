@@ -712,13 +712,13 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 { font-weight: 300; color: #364d59; 
 .careers-1 { padding: 20px; background: #fff; margin-bottom: 30px; }
 
 /* carrent */
-.feature-car-rent-box-1 { position: relative; padding: 30px; background: #fff; }
+.feature-car-rent-box-1 { position: relative; padding: 30px; margin-bottom: 30%; }
 
 .feature-car-rent-box-1:before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 10px; width: 100%; background: #007bff; }
 
 .feature-car-rent-box-1 ul { padding: 0; margin: 0; }
 
-.feature-car-rent-box-1 ul li { display: block; padding: 20px 0; list-style: none; border-bottom: 1px solid #efefef; margin: 0; position: relative; }
+.feature-car-rent-box-1 ul li { display: block; padding: 20px 0; list-style: none; border-bottom: 1px solid #6a6a6a; margin: 0; position: relative; }
 
 .feature-car-rent-box-1 ul li .spec { position: absolute; right: 0; }
 
