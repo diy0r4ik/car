@@ -643,7 +643,7 @@ body {
 @media (min-width: 1060px) {
   .feature-car-rent-box-1{
     top: 80%;
-    margin-bottom: 50%;
+    margin-bottom: 60%;
   }
    #carousel-wrapper { 
     width: 1000px; margin: 0 auto;
@@ -665,15 +665,30 @@ body {
   }
 }
 @media (max-width: 1500px) {
+  .col-lg-5 {
+    margin-top: -90%;
+  }
   .feature-car-rent-box-1{
-    top: 80%;
-    margin-top: 50%;
+    top: 50%;
+    margin-top: 60%;
+    margin-bottom: 55%;
+  }
+  .trip-form{
+    margin-bottom: -100px;
   }
 
+  
+}
+@media (max-width: 1200px) {
+  .feature-car-rent-box-1{
+    /* top: 80%; */
+    margin-bottom: 70%;
+  }
 }
 @media (max-width: 992px) {
   .feature-car-rent-box-1{
     margin-top: 40%;
+    margin-bottom: 55%;
   }
   #carousel-wrapper #menu #current-option { 
     margin-left: 460px;
@@ -685,9 +700,6 @@ body {
   width: 300px;
   height: 300px;
 }
-
-.content-footer{
-  t
 }
 @media(max-width:992px){
   #carousel-wrapper #menu #current-option #current-option-text1{
